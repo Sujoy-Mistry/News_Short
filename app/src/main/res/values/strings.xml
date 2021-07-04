@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NewsShort</string>
+    <string name="about">About</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="about_me"> I am Sujoy Mistry, currently a Pre-final year student at Jalpaiguri Government Engineering College.
+                             Keenly enthusiastic about Native android development(with kotlin) Looking for career opportunities where I can apply my knowledge and skills in Android Development.
+     </string>
+    <string name="contact_with_me">Contact with me</string>
+    <string name="copyright">© Sujoy Mistry. All rights reserved.</string>
+</resources>

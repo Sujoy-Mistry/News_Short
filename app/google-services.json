@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "802873739252",
+    "project_id": "newsshort-b1777",
+    "storage_bucket": "newsshort-b1777.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802873739252:android:32b1fd496f3a4a769f5ba1",
+        "android_client_info": {
+          "package_name": "com.example.newsshort"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802873739252-vahsm94onskguc0p62p1i5k51jajhiko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF4JHwxYQdXjvxk9fCcVW-DpK2gRLa83I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802873739252-vahsm94onskguc0p62p1i5k51jajhiko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

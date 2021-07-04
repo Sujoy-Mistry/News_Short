@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mist"
+    tools:context=".About_activity">
+
+    <ImageButton
+        android:id="@+id/back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/sfg"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/sujoy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.368"
+        app:shapeAppearanceOverlay="@style/roundImage"
+        app:strokeColor="#FF3333"
+        app:strokeWidth="3dp" />
+
+    <LinearLayout
+        android:id="@+id/rtv"
+        android:layout_width="0dp"
+        android:layout_height="340dp"
+        android:background="@drawable/about_background"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:scaleX="1"
+            android:text="@string/about_me"
+            android:textColor="#1F5F7C" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/contact_with_me"
+            android:textColor="#8717E5" />
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:layout_marginTop="10dp"
+             android:layout_marginStart="110dp">
+             <ImageButton
+                 android:layout_width="50dp"
+                 android:layout_height="50dp"
+                 android:src="@drawable/facebook"
+                 android:scaleType="fitXY"
+                 android:id="@+id/facebook"
+                 android:background="#ffffff"
+                 />
+             <ImageButton
+                 android:layout_width="50dp"
+                 android:layout_height="50dp"
+                 android:id="@+id/instagram"
+                 android:src="@drawable/instagram"
+                 android:scaleType="fitXY"
+                 android:background="#ffffff"
+                 android:layout_marginStart="10dp"/>
+             <ImageButton
+                 android:layout_width="50dp"
+                 android:layout_height="50dp"
+                 android:src="@drawable/github"
+                 android:scaleType="fitXY"
+                 android:id="@+id/github"
+                 android:background="#ffffff"
+                 android:layout_marginStart="10dp"/>
+         </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="80dp"
+            android:text="@string/copyright"/>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
