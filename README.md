@@ -15,9 +15,6 @@
 <li>RecyclerView</li>
 </ul>
 <h3>Demo</h3>
-<!-- <video src="https://user-images.githubusercontent.com/83392576/126014546-978ea3b5-b077-4daa-b0de-caf450b1771a.mp4" controls="false" autoplay="autoplay" width="40%" style="max-width:100%;"> -->
- <video width="40%" style="max-width:100%" controls="false" autoplay="autoplay">
-<source src="https://user-images.githubusercontent.com/83392576/126014546-978ea3b5-b077-4daa-b0de-caf450b1771a.mp4" type="video/mp4" />
-</video> 
+<video src="https://user-images.githubusercontent.com/83392576/126014546-978ea3b5-b077-4daa-b0de-caf450b1771a.mp4" controls="false" autoplay="autoplay" width="40%" style="max-width:100%;">
 
 
