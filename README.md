@@ -16,6 +16,9 @@
 </ul>
 <h3>Demo</h3>
 <video src="https://user-images.githubusercontent.com/83392576/126014546-978ea3b5-b077-4daa-b0de-caf450b1771a.mp4" width="40%" style="max-width:100%;"/>
+<video width="320" height="240" controls>
+  <source src="https://user-images.githubusercontent.com/83392576/126014546-978ea3b5-b077-4daa-b0de-caf450b1771a.mp4" type="video/mp4">
+</video>
  <h4>Libraries</h4>
  <ul><li>Google gson For parsing JSON data</li>
   <li>Glide Loading and caching images</li>
